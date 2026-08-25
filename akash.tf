@@ -12,12 +12,12 @@ provider "azurerm" {
 }
 variable "rgs" {}
 resource "azurerm_resource_group" "rgs" {
-  name     = var.rg6
+  name     = var.rg65
   location = var.location
 }
 
 resource "azurerm_resource_group" "rg1" {
-  name     = var.rg5
+  name     = var.rg55
   location = var.location
 }
 
